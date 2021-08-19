@@ -7,7 +7,7 @@ public class Fabrica {
 	public static void main(String[] args) {
 		conexionfabrica Fabrica = new conexionfabrica();
 		
-		iconexion cx1 = Fabrica.getConexion("Postgresql");
+		iconexion cx1 = Fabrica.getConexion("PostgreSQL");
 		System.out.println();
 		System.out.println("1.  Conexion  con PostgreSQL");
 		System.out.println();
