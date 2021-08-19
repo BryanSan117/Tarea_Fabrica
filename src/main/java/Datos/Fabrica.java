@@ -27,7 +27,7 @@ public class Fabrica {
 		cx2.desconectar();
 		System.out.println("**************************************************");
 
-		iconexion cx3 = Fabrica.getConexion("MysQL");
+		iconexion cx3 = Fabrica.getConexion("MySQL");
 		System.out.println();
 		System.out.println("4.	Conexion  con MySQL Server");
 		System.out.println();
