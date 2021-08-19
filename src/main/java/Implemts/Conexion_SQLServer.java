@@ -20,13 +20,13 @@ public class Conexion_SQLServer implements iconexion  {
 	
 	@Override
 	public void conectar() {
-		System.out.println("Se a conectado a la base de SQL Server");
+		System.out.println("Se conecto a SQL Server");
 		
 	}
 
 	@Override
 	public void desconectar() {
-	System.out.println("Se a desconectado en SQL Server");
+	System.out.println("Se desconectado de SQL Server");
 		
 	}
 

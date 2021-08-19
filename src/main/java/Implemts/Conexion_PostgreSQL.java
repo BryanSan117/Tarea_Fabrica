@@ -18,11 +18,11 @@ public class Conexion_PostgreSQL implements iconexion {
 	
 	@Override
 	public void conectar () {
-		System.out.println("Se conecto a Postgresql");
+		System.out.println("Se conecto a PostgreSQL");
 	}
 	@Override
 	public void desconectar() {
-		System.out.println("Se desconecto de Postgresql");
+		System.out.println("Se desconecto de PostgreSQL");
 
 	}
 

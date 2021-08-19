@@ -18,13 +18,13 @@ public class Conexion_MySQL implements iconexion {
 
 	@Override
 	public void conectar() {
-		System.out.println("Se conecto en MysQl");
+		System.out.println("Se conecto en MySQl");
 		
 	}
 
 	@Override
 	public void desconectar() {
-		System.out.println("Se desconecto en MysQl");
+		System.out.println("Se desconecto en MySQl");
 		
 	}
 	
